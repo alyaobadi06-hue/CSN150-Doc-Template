@@ -54,26 +54,27 @@ and view the live camera stream in a web browser.
 
 Complete this section with the settings actually used in your lab.
 
-  Setting                    Value used
-  -------------------------- ------------------------------------------
-  Board                      AI Thinker ESP32-CAM
-  Arduino IDE serial port    \[Enter your COM port\]
-  Serial Monitor baud rate   115200
-  Camera model               CAMERA_MODEL_AI_THINKER
-  Wi-Fi band                 2.4 GHz
-  Camera IP address          \[Enter the IP shown in Serial Monitor\]
+| Setting | Value Used |
+|---|---|
+| Board | AI Thinker ESP32-CAM |
+| Arduino IDE Serial Port | COM6 (if this was the port used) |
+| Serial Monitor Baud Rate | 115200 |
+| Camera Model | CAMERA_MODEL_AI_THINKER |
+| Wi-Fi Band | 2.4 GHz |
+| Camera IP Address | 192.168.1.100 |
 
 **Privacy note:** Do not publish your Wi-Fi password, private
 credentials, or other sensitive information in this repository.
 
 ### Problems and Solutions
 
-No major problems encountered during the setup and configuration process. The ESP32-CAM successfully connected to the Wi-Fi network and displayed the live camera stream.
-  -----------------------------------------------------------------------
-  Problem encountered                 Solution tried / result
-  ----------------------------------- -----------------------------------
-  \[Enter an actual problem, or write \[Describe what resolved it, or
-  "No major problems encountered."\]  write "Not applicable."\]
+### Problems and Solutions
+
+No major problems encountered during the camera web interface testing. The live camera stream appeared successfully in the web browser.
+
+| Problem Encountered | Solution Tried / Result |
+|---|---|
+| Not applicable | The camera web interface worked successfully. |
 
   -----------------------------------------------------------------------
 
@@ -87,7 +88,7 @@ instructor.
 
 ### Results
 
-The ESP32-CAM Camera Web Server page opened successfully in a web browser. The live camera stream was displayed, and the camera successfully captured a clear image. This confirmed that the camera web interface was working.
+The ESP32-CAM Camera Web Server page opened successfully in a web browser. The camera displayed a clear live image, and the camera controls were visible on the webpage. The IP address 192.168.1.100 appeared in the browser address bar. This confirmed that the camera web interface and live stream were working successfully.
 
 ### Final Report
 
@@ -99,7 +100,7 @@ live camera image in a browser on the same network.
 
 ------------------------------------------------------------------------
 
-**Student:** \[Enter your name\]\
-**Course:** CSN150\
-**Lab:** 2 --- ESP32 Camera\
-**Repository:** \[Paste the URL of your own GitHub fork\]
+**Student:** Alya Obadi  
+**Course:** CSN150  
+**Lab:** 2 — ESP32 Camera  
+**Repository:** [Paste your GitHub Fork URL]
