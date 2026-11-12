@@ -66,7 +66,6 @@ Complete this section with the settings actually used in your lab.
 **Privacy note:** Do not publish your Wi-Fi password, private
 credentials, or other sensitive information in this repository.
 
-### Problems and Solutions
 
 ### Problems and Solutions
 
@@ -92,11 +91,8 @@ The ESP32-CAM Camera Web Server page opened successfully in a web browser. The c
 
 ### Final Report
 
-This lab demonstrates how to configure an ESP32-CAM as a Wi-Fi camera
-web server. The setup uses the CameraWebServer example in Arduino IDE.
-Successful operation is verified when the board connects to the 2.4 GHz
-Wi-Fi network, prints an IP address in Serial Monitor, and displays a
-live camera image in a browser on the same network.
+This lab demonstrates the use of the ESP32-CAM as a wireless camera web server. The Camera Web Server interface was successfully 
+opened in a web browser using the IP address 192.168.1.100. The live camera image was displayed successfully, confirming that the camera web interface was working.
 
 ------------------------------------------------------------------------
 
