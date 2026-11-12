@@ -68,8 +68,7 @@ credentials, or other sensitive information in this repository.
 
 ### Problems and Solutions
 
-Record only problems that actually occurred during your setup.
-
+No major problems encountered during the setup and configuration process. The ESP32-CAM successfully connected to the Wi-Fi network and displayed the live camera stream.
   -----------------------------------------------------------------------
   Problem encountered                 Solution tried / result
   ----------------------------------- -----------------------------------
@@ -88,9 +87,7 @@ instructor.
 
 ### Results
 
-\[After completing the lab, describe whether the ESP32-CAM connected to
-Wi-Fi, whether an IP address appeared in Serial Monitor, and whether the
-live camera stream worked.\]
+The ESP32-CAM Camera Web Server page opened successfully in a web browser. The live camera stream was displayed, and the camera successfully captured a clear image. This confirmed that the camera web interface was working.
 
 ### Final Report
 
