@@ -10,7 +10,7 @@ const char* password = "YOUR_WIFI_PASSWORD";
 WebServer server(80);
 
 void handleRoot() {
-  server.send(200, "text/plain", "Hello from ESP32-CAM!");
+server.send(200, "text/plain", "Hello from Alya!");
 }
 
 void setup() {
