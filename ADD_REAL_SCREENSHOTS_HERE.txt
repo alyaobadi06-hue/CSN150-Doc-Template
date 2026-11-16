@@ -1,0 +1,12 @@
+Place your REAL screenshots in this folder using these exact filenames:
+
+01-github-fork.png
+02-arduino-board.png
+03-upload-success.png
+04-serial-monitor.png
+05-wifi-network.png
+06-web-server.png
+07-live-camera.png
+08-github-readme.png
+
+Do not use sample images or generated images as proof of hardware operation.

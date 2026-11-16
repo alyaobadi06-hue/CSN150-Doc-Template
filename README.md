@@ -1,34 +1,124 @@
-# Cybersecurity : CSN150
-Project: ESP32 XXXXXXXX
+# Cybersecurity: CSN150
+
+**Project: ESP32-CAM Wi-Fi Access Point and Camera Web Server**
+
+Student: Alya Obadi 
+Instructor: Edwin Reed-Sanchez
+Date: Nov 15, 2026
 
 ## Purpose
-Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner". 
+
+The purpose of this project was to configure an ESP32-CAM as a standalone Wi-Fi access point and access its camera web server from a connected device. The project demonstrates how an ESP32-CAM can create its own wireless network and provide a local web page for viewing the camera.
 
 ## Equipment
-* [ESP32Cam](https://www.amazon.com/Aideepen-ESP32-CAM-Bluetooth-ESP32-CAM-MB-Arduino/dp/B08P2578LV/ref=sr_1_3?crid=4FY0ECFW0ZX7&keywords=ESP32+Cam&qid=1678902050&sprefix=esp32+cam%2Caps%2C240&sr=8-3)
 
-* [USB Micro Data Cable](https://www.amazon.com/AmazonBasics-Male-Micro-Cable-Black/dp/B0711PVX6Z/ref=sr_1_1_sspa?keywords=micro+usb+data+cable&qid=1678902214&sprefix=Micro+USB+data+%2Caps%2C89&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFaU0NaUVZHU1RFUlAmZW5jcnlwdGVkSWQ9QTA3NTA4MDVFVERCS01HVlgxM1YmZW5jcnlwdGVkQWRJZD1BMDE4NTE1NTIwWUdONkdWSzU1M1Amd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl)
+> Keep only the equipment you actually used and replace the bracketed details.
+
+- ESP32-CAM board: [Exact model printed on the board]
+- USB programmer: [ESP32-CAM-MB / FTDI adapter / other]
+- USB cable: [USB type]
+- Jumper wires: [Yes / No; describe if used]
+- Computer: [Computer type and operating system]
+- Phone or second computer used for testing: [Device]
+- Power source: [Describe what you used]
 
 ## Links to documentation and tools
 
-##### Video 1: 
+##### Video 1:
+[Paste the instructor's tutorial/video link here, if one was assigned.]
 
-##### Other Links: 
+##### Other Links:
+
+- [Instructor's CSN150 documentation template](https://github.com/ereedsanchez/CSN150-Doc-Template)
+- [ESP32-CAM Access Point Web Server tutorial](https://randomnerdtutorials.com/esp32-cam-access-point-ap-web-server/)
+- [Arduino IDE download](https://www.arduino.cc/en/software)
+- [Official Espressif Arduino-ESP32 installation guide](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)
 
 ##### AI GPTs used
 
+ChatGPT was used to help organize the project requirements, understand the ESP32-CAM access point setup, and prepare the documentation. The hardware setup, upload, and testing results reported here must be based on my own work and observations.
+
 ## Steps I followed
-1. Write the steps you followed here.  This way you can keep track of where you might have messed up if the project does not work. 
+
+> Edit these steps so they accurately describe what you personally did. Remove any step you did not complete.
+
+1. I created a fork of the instructor's CSN150 documentation template on my GitHub account.
+2. I installed Arduino IDE on my computer.
+3. I installed ESP32 board support in Arduino IDE by following the official Espressif instructions.
+4. I identified my ESP32-CAM board model and connected it using [the programmer or USB-to-serial adapter actually used].
+5. I selected the appropriate ESP32 board and serial port in Arduino IDE.
+6. I opened the CameraWebServer example and selected the camera model that matched my board: [camera model].
+7. I configured the access point network name (SSID) and a test password in the sketch. I did not use a personal or account password.
+8. I configured the ESP32-CAM to create its own Wi-Fi access point using `WiFi.softAP()`.
+9. I uploaded the sketch to the ESP32-CAM and restarted the board.
+10. I checked the startup messages in the Arduino IDE Serial Monitor at [baud rate] baud.
+11. I connected my [phone/computer] to the ESP32-CAM Wi-Fi network.
+12. I opened `http://192.168.4.1` in the connected device's browser.
+13. [Describe what happened when you opened the camera page and tested the live stream.]
 
 ## Problems and Solutions
-Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer. Document your errors and solutions that worked for you.  
 
-**Problem:** E (485) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)
-Camera init failed with error 0x105
-**Solution:**
+> Record only problems you actually experienced. Do not copy the example camera error from the instructor's template unless that exact error happened to you.
 
-### Example Problem
-**Problem:** Arduino code will not load on ESP32 Cam.
-**Solution:** Camera drivers were incorrect I needed to install the driver: [https://www.wch-ic.com/downloads/CH341SER_ZIP.html](https://github.com/martin-ger/esp32_nat_router).  I used file, "CH341SER.ZIP" and it worked.
+**Problem 1:** [Describe the actual error or symptom. If you had no problems, write: "No significant problems were encountered during the setup."]
+
+**Cause:** [Explain the cause you identified, or write "Not applicable" if there was no problem.]
+
+**Solution:** [Explain the fix that worked, or write "Not applicable" if there was no problem.]
+
+**Additional problems (if any):**
+- Problem: [Actual problem]
+- Solution: [Actual solution]
 
 ## Final Report
+
+> Complete the bracketed parts after testing the physical board.
+
+The project [was successful / was partially successful / was not successful]. The ESP32-CAM [created / did not create] its own Wi-Fi access point. I tested the connection using [phone or computer]. The device [connected / did not connect] to the ESP32-CAM network. The camera web page at `http://192.168.4.1` [opened / did not open], and the live camera stream [worked / did not work].
+
+This project helped me understand how an ESP32-CAM can operate as a standalone wireless access point and host a local camera web server. I also learned about configuring an ESP32 board, uploading a sketch, monitoring serial output, and testing a device over a direct Wi-Fi connection.
+
+## Screenshots and Evidence
+
+Upload your genuine screenshots into this repository's `screenshots` folder using the filenames below.
+
+### 01. GitHub Fork
+
+![GitHub repository fork](screenshots/01-github-fork.png)
+
+### 02. Arduino IDE Board and Port
+
+![Arduino IDE board and port](screenshots/02-arduino-board.png)
+
+### 03. Successful Upload
+
+![Successful upload](screenshots/03-upload-success.png)
+
+### 04. Serial Monitor
+
+![Serial Monitor startup information](screenshots/04-serial-monitor.png)
+
+### 05. Connected Wi-Fi Network
+
+![Phone connected to ESP32-CAM access point](screenshots/05-wifi-network.png)
+
+### 06. Camera Web Server Page
+
+![ESP32-CAM web server page](screenshots/06-web-server.png)
+
+### 07. Live Camera Stream
+
+![ESP32-CAM live camera stream](screenshots/07-live-camera.png)
+
+### 08. Completed GitHub README
+
+![Completed GitHub README](screenshots/08-github-readme.png)
+
+## Security and Privacy Notes
+
+- I used a test Wi-Fi password rather than a personal password.
+- I did not publish the Wi-Fi password in this repository.
+- I tested only my own board and devices or equipment I was authorized to use.
+- I checked the board and programmer pinouts before connecting hardware.
+
+**Repository URL:** [Paste the URL of your own fork here]
