@@ -78,42 +78,6 @@ The project [was successful / was partially successful / was not successful]. Th
 
 This project helped me understand how an ESP32-CAM can operate as a standalone wireless access point and host a local camera web server. I also learned about configuring an ESP32 board, uploading a sketch, monitoring serial output, and testing a device over a direct Wi-Fi connection.
 
-## Screenshots and Evidence
-
-Upload your genuine screenshots into this repository's `screenshots` folder using the filenames below.
-
-### 01. GitHub Fork
-
-![GitHub repository fork](screenshots/01-github-fork.png)
-
-### 02. Arduino IDE Board and Port
-
-![Arduino IDE board and port](screenshots/02-arduino-board.png)
-
-### 03. Successful Upload
-
-![Successful upload](screenshots/03-upload-success.png)
-
-### 04. Serial Monitor
-
-![Serial Monitor startup information](screenshots/04-serial-monitor.png)
-
-### 05. Connected Wi-Fi Network
-
-![Phone connected to ESP32-CAM access point](screenshots/05-wifi-network.png)
-
-### 06. Camera Web Server Page
-
-![ESP32-CAM web server page](screenshots/06-web-server.png)
-
-### 07. Live Camera Stream
-
-![ESP32-CAM live camera stream](screenshots/07-live-camera.png)
-
-### 08. Completed GitHub README
-
-![Completed GitHub README](screenshots/08-github-readme.png)
-
 ## Security and Privacy Notes
 
 - I used a test Wi-Fi password rather than a personal password.
@@ -121,4 +85,3 @@ Upload your genuine screenshots into this repository's `screenshots` folder usin
 - I tested only my own board and devices or equipment I was authorized to use.
 - I checked the board and programmer pinouts before connecting hardware.
 
-**Repository URL:** [Paste the URL of your own fork here]
